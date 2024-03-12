@@ -22,11 +22,12 @@
 
 body {
   margin: 0;
-  background-color: var(--color-UI1);
+  background-color: var(--color-UI2);
   color: var(--color-white);
 }
 
 //IMPORTS
 // COMPONENTS A-Z
 @import "./components/header.scss";
+@import "./components/hero.scss";
 @import "./components/navbar.scss";

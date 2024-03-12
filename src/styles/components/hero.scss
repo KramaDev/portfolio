@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  &__box {
+    padding: 4rem;
+  }
+
+  &__photo {
+    width: 100%;
+    border-radius: 5rem 0.5rem 5rem 0.5rem;
+    box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  &__text {
+    margin: 0.25rem 0;
+    &--highlight {
+      color: var(--color-UI4);
+      padding: 0 1rem;
+    }
+  }
+}
