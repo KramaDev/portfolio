@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  &__item {
+    color: var(--color-black);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 0.25rem 0.5rem;
+    transition: all 250ms ease;
+    border-radius: var(--border-round);
+    color: var(--color-white);
+
+    &:hover {
+      border: 3px solid var(--color-black);
+      background-color: var(--color-UI4);
+      color: var(--color-black);
+    }
+  }
+}

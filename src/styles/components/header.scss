@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.2);
+
+  &__logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: var(--border-circle);
+  }
+}

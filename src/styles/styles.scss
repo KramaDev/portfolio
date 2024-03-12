@@ -4,6 +4,12 @@
   --color-black: #222;
   --color-gray: #b6b6b6;
 
+  --color-UI1: #253c59;
+  --color-UI2: #58788c;
+  --color-UI3: #99b4bf;
+  --color-UI4: #d9b70d;
+  --color-UI5: #bf8d30;
+
   //BORDERS
   --border-round: 0.5rem;
   --border-circle: 1600rem;
@@ -16,7 +22,11 @@
 
 body {
   margin: 0;
+  background-color: var(--color-UI1);
+  color: var(--color-white);
 }
 
 //IMPORTS
 // COMPONENTS A-Z
+@import "./components/header.scss";
+@import "./components/navbar.scss";
