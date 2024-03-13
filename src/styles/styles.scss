@@ -26,8 +26,16 @@ body {
   color: var(--color-white);
 }
 
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 //IMPORTS
 // COMPONENTS A-Z
+@import "./components/grid.scss";
 @import "./components/header.scss";
 @import "./components/hero.scss";
 @import "./components/navbar.scss";
